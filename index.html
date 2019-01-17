@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting</title>
+    <link rel="icon" type="image/png" href="login/images/icons/favicon.ico"/>
+    <!-- Bootstrap  -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--jquery-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+  
+</head>
+<body>
+<div id="page">
+
+    <nav class="gtco-nav" role="navigation">
+        <div class="gtco-container">
+
+            <div class="row">
+                <div class="col-sm-2 col-xs-12">
+                    <div id="gtco-logo"><a href="index.html">Meeting</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="gtco-section">
+    <div class="gtco-container" id="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+                <h2>VOTRE MEETING </h2>
+
+            </div>
+
+        </div>
+        <form method="post" action="">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="">Time</span>
+                </div>
+
+                <input type="text" class="form-control" id="time">
+            </div>
+            <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">A quelle date?</span>
+                    </div>
+    
+            
+            <input name="date" type="text" id="date" class="form-control" />
+        </div>
+            <br />
+            <label>
+                Choose Country:
+                <span class="custom-dropdown custom-dropdown--white">
+                    <select class="custom-dropdown__select custom-dropdown__select--white" id="pays">
+                            <option value="-1">choose one</option>
+                        <option value="8">Tokyo</option>
+                        <option value="-6">New York</option>
+                        <option value="8">Seoul</option>
+                        
+                    </select>
+                </span>
+            </label>
+            <br>
+                <input class="btn btn-primary" type="submit" id="b1" value="Send" >
+
+        </form>
+    </div>
+
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jsf.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+
+</body>
+</html>
